@@ -8,29 +8,29 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
         color: #b8b8b8;
         border: 3px solid #262626;
     }
 
     .footerp {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 500;
     }
 
     .footerh1 {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 700;
     }
 
     .footera {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 500;
         color: dodgerblue;
     }
 
-    .made-icon {
-        width: 20px;
+    .footer-icons {
+        width: 13px;
         filter: invert() brightness(200%);
     }
 }
@@ -66,7 +66,7 @@
         color: dodgerblue;
     }
 
-    .made-icon {
+    .footer-icons {
         width: 20px;
         filter: invert() brightness(200%);
     }
