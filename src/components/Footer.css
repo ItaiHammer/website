@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: center;
         gap: 5px;
-        color: #b8b8b8;
+        color: #fff;
         border: 3px solid #262626;
         user-select: none;
     }
@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
-        color: #b8b8b8;
+        color: #fff;
         border: 3px solid #262626;
     }
 
