@@ -48,10 +48,10 @@ export default function AboutMe () {
                 <p className="about-me-text" >and</p>
                 <motion.p className="about-me-text" id="purple" animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} >Photoshop.</motion.p>
                 <p className="about-me-text" >I've been living in California for</p>
-                <motion.p className="about-me-text" id="purple" animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} >3</motion.p>
+                <motion.p className="about-me-text" id="purple" animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} >4</motion.p>
                 <p className="about-me-text" > years</p>
                 <p className="about-me-text" > and am in</p>
-                <motion.p className="about-me-text" id="purple" animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} >9th</motion.p>
+                <motion.p className="about-me-text" id="purple" animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} >10th</motion.p>
                 <p className="about-me-text" > grade.</p>
             </div>
             <motion.div animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} onClick={()=>{setAboutMeAnimation(true)}} className="about-me-logo" ></motion.div>

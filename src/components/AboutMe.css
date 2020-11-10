@@ -20,12 +20,12 @@
         align-items: center;
         justify-content: center;
         gap: 2vw;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .about-me-title {
         color: #fff;
-        font-size: 6vw;
+        font-size: 10vw;
         font-weight: 600;
         letter-spacing: 0px;
         font-family: 'Rubik', sans-serif;
@@ -34,19 +34,19 @@
 
     .about-click-me-text {
         color: #353535;
-        font-size: 2vw;
+        font-size: 5vw;
         font-family: 'Itim', cursive;
-        margin-left: 20vw;
-        margin-top: 50px;
+        margin-left: 30vw;
+        margin-top: 60px;
         user-select: none;
         position: absolute;
     }
 
     .about-circle-icon {
         background: url('./img/circle-icon.svg') center center no-repeat;
-        width: 10vw;
-        height: 10vw;
-        margin-left: 19vw;
+        width: 15vw;
+        height: 15vw;
+        margin-left: 30vw;
         position: absolute;
         z-index: 0;
     }
@@ -67,21 +67,21 @@
     }
 
     .about-me-text-container {
-        width: 50vw;
-        height: 20vw;
+        width: 90vw;
+        height: 50vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 1vw;
+        gap: 2vw;
     }
 
     .about-me-text {
         color: #fff;
-        font-size: 2vw;
+        font-size: 5vw;
         font-weight: 600;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
         text-align: left;
         font-family: 'Rubik', sans-serif;
     }
@@ -94,6 +94,7 @@
         cursor: pointer;
         background-size: cover;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        display: none;
     }
 }
 
@@ -193,5 +194,6 @@
         cursor: pointer;
         background-size: cover;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        display: block;
     }
 }
