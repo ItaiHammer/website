@@ -13,7 +13,7 @@ export default function MyWork () {
         animate: {
             opacity: 1,
             y: 0,
-            transition: {duration: 2}
+            transition: {duration: 3}
         },
     }
 
@@ -23,8 +23,8 @@ export default function MyWork () {
             <h1 className="my-work-title" style={{color: '#FFCC00',userSelect: 'none' , cursor: 'pointer'}}>Work</h1>
         </div>
         <div className="work-popup-container">
-            <div className="work-popup"></div>
-            <div className="work-popup"></div>
+            <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 3, damping: 15}} className="work-popup"></motion.div>
+            <motion.div whileHover={{y: -50}} transition={{duration: 0.5}} className="work-popup"></motion.div>
         </div>
         <br/><br/>
     </motion.div>);

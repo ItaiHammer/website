@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import AboutMe from './components/AboutMe';
 import MyWork from './components/MyWork';
+import Footer from './components/Footer';
 
 function App() {
   const [theme, setTheme] = useState('#00AAFF');
@@ -16,6 +17,7 @@ function App() {
     <Body theme={theme} setTheme={setTheme} />
     <AboutMe/>
     {/* <MyWork/> */}
+    <Footer/>
   </div>);
 }
 
