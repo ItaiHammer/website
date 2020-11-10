@@ -31,7 +31,7 @@ export default function Body ({ theme, setTheme }) {
     }
 
     useEffect(()=>{
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 2; i++) {
             setTimeout(() => {
                 window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
             }, 100);
