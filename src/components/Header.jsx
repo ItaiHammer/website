@@ -20,6 +20,10 @@ export default function Header ({ theme }) {
             href: '#home'
         },
         {
+            text: 'About Me',
+            href: '#about-me'
+        },
+        {
             text: 'My Work',
             href: '#my-work'
         },

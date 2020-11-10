@@ -1,0 +1,197 @@
+@media (min-width: 300px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .about-me-title-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        margin-top: 100px;
+    }
+
+    .about-me-title {
+        color: #fff;
+        font-size: 6vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-family: 'Rubik', sans-serif;
+        z-index: 1;
+    }
+
+    .about-click-me-text {
+        color: #353535;
+        font-size: 2vw;
+        font-family: 'Itim', cursive;
+        margin-left: 20vw;
+        margin-top: 50px;
+        user-select: none;
+        position: absolute;
+    }
+
+    .about-circle-icon {
+        background: url('./img/circle-icon.svg') center center no-repeat;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 19vw;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #purple {
+        color: #9562ff;
+        cursor: text;
+    }
+
+    .about-me-about {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10vw;
+    }
+
+    .about-me-text-container {
+        width: 50vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+    }
+
+    .about-me-text {
+        color: #fff;
+        font-size: 2vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .about-me-logo {
+        background: url('./img/logo-background.png') center center;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        cursor: pointer;
+        background-size: cover;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@media (min-width: 750px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .about-me-title-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        margin-top: 100px;
+    }
+
+    .about-me-title {
+        color: #fff;
+        font-size: 6vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .about-click-me-text {
+        color: #353535;
+        font-size: 2vw;
+        font-family: 'Itim', cursive;
+        margin-left: 20vw;
+        margin-top: 170px;
+        user-select: none;
+        position: absolute;
+    }
+
+    .about-circle-icon {
+        background: url('./img/circle-icon.svg') center center no-repeat;
+        width: 10vw;
+        height: 10vw;
+        margin-left: 19vw;
+        position: absolute;
+        z-index: 0;
+    }
+
+    #purple {
+        color: #9562ff;
+        cursor: text;
+    }
+
+    .about-me-about {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10vw;
+    }
+
+    .about-me-text-container {
+        width: 50vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+        margin-top: 80px;
+    }
+
+    .about-me-text {
+        color: #fff;
+        font-size: 2vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .about-me-logo {
+        background: url('./img/logo-background.png') center center;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        cursor: pointer;
+        background-size: cover;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+}

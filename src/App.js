@@ -4,6 +4,7 @@ import './App.css';
 //components
 import Header from './components/Header';
 import Body from './components/Body';
+import AboutMe from './components/AboutMe';
 import MyWork from './components/MyWork';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (<div className="app-body" >
     <Header theme={theme} setTheme={setTheme} />
     <Body theme={theme} setTheme={setTheme} />
+    <AboutMe/>
     {/* <MyWork/> */}
   </div>);
 }

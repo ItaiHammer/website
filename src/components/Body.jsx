@@ -43,7 +43,7 @@ export default function Body ({ theme, setTheme }) {
             <div className="click-me-icon"></div>
             <p className="click-me-text" >Long Click Me!</p>
         </div>
-        <button className="view-work-button" style={{background: theme}} >My Work <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="My Work" className="my-work-button-icon" /> </button>
+        <motion.a href="#about-me" whileHover={{scale: 1.05}} ><button className="view-work-button" style={{background: theme}} >About Me <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="About Me" className="my-work-button-icon" /> </button></motion.a>
         <div className="home-design-icon" ></div>
     </motion.div>);
 };
