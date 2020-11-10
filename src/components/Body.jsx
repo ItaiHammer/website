@@ -31,9 +31,11 @@ export default function Body ({ theme, setTheme }) {
     }
 
     useEffect(()=>{
-        setTimeout(() => {
-            // window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-        }, 1000);
+        for (let i = 0; i < 5; i++) {
+            setTimeout(() => {
+                window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+            }, 100);
+        }
     }, []);
 
     return (<motion.div id="home" variants={homeVariants} initial="initial" animate="animate" >
