@@ -1,0 +1,171 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (min-width: 300px) {
+    .title {
+        color: #fff;
+        font-size: 13vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 200px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .click-me-icon {
+        background: url('./img/click-me-icon.svg') center center no-repeat;
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left: 40vw;
+        position: absolute;
+    }
+
+    .click-me-text {
+        color: #353535;
+        font-size: 1vw;
+        font-family: 'Itim', cursive;
+        margin-left: 43vw;
+        margin-top: 70px;
+        user-select: none;
+        position: absolute;
+    }
+
+    .description {
+        color: #bbbbbb;
+        font-size: 4.5vw;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 2px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .view-work-button {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        outline: none;
+        color: #fff;
+        font-size: 6vw;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-family: 'arial';
+        user-select: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .my-work-button-icon {
+        width: 30px;
+        height: 30px;
+        -webkit-user-drag: none;
+        filter: invert() brightness(200%);
+    }
+
+    .home-design-icon {
+        background: url('./img/design-icon.svg') center center no-repeat;
+        width: 100vw;
+        height: 200px;
+        background-attachment: local;
+    }
+}
+
+@media (min-width: 800px) {
+    .title {
+        color: #fff;
+        font-size: 7vw;
+        font-weight: 600;
+        letter-spacing: 0px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 250px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .click-me-icon {
+        background: url('./img/click-me-icon.svg') center center no-repeat;
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left: 40vw;
+        position: absolute;
+    }
+
+    .click-me-text {
+        color: #353535;
+        font-size: 1vw;
+        font-family: 'Itim', cursive;
+        margin-left: 43vw;
+        margin-top: 70px;
+        user-select: none;
+        position: absolute;
+    }
+
+    .description {
+        color: #bbbbbb;
+        font-size: 1vw;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .view-work-button {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        outline: none;
+        color: #fff;
+        font-size: 1vw;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-family: 'arial';
+        user-select: none;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .my-work-button-icon {
+        width: 30px;
+        height: 30px;
+        -webkit-user-drag: none;
+        filter: invert() brightness(200%);
+    }
+
+    .home-design-icon {
+        background: url('./img/design-icon.svg') center center no-repeat;
+        width: 100vw;
+        height: 500px;
+        background-attachment: local;
+    }
+}

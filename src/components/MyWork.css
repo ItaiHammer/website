@@ -1,0 +1,43 @@
+#my-work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.my-work-title {
+    color: #fff;
+    font-size: 6vw;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.work-popup {
+    background: #292929;
+    width: 40vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.work-popup-preview {
+    width: 25vw;
+    height: 400px;
+    border-radius: 10px;
+}
