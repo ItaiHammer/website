@@ -10,7 +10,7 @@ export default function Footer () {
         <p className="footerp" >With</p>
         <img src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/80-512.png" className="footer-icons" />
         <p className="footerp" >By</p>
-        <h1 className="footerh1" >Itai Hammer</h1>
+        <h1 className="footerh1" >Itai Hammer 2020</h1>
         <a href="https://github.com/ItaiHammer/website" target="blank" className="footera" >GitHub Page</a>
     </div>);
 }

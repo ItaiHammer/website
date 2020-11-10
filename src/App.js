@@ -16,7 +16,7 @@ function App() {
     <Header theme={theme} setTheme={setTheme} />
     <Body theme={theme} setTheme={setTheme} />
     <AboutMe/>
-    {/* <MyWork/> */}
+    <MyWork/>
     <Footer/>
   </div>);
 }
