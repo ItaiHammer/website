@@ -34,6 +34,7 @@
         height: 2.5vw;
         margin-left: 40vw;
         position: absolute;
+        display: none;
     }
 
     .click-me-text {
@@ -44,6 +45,7 @@
         margin-top: 70px;
         user-select: none;
         position: absolute;
+        display: none;
     }
 
     .description {
@@ -116,6 +118,7 @@
         height: 2.5vw;
         margin-left: 40vw;
         position: absolute;
+        display: block;
     }
 
     .click-me-text {
@@ -126,6 +129,7 @@
         margin-top: 70px;
         user-select: none;
         position: absolute;
+        display: block;
     }
 
     .description {
