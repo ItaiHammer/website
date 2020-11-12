@@ -20,7 +20,7 @@ export default function MyWork () {
     return (<motion.div variants={workVariants} initial="initial" animate="animate" id="my-work" >
         <div className="title-container">
             <h1 className="my-work-title" >My</h1>
-            <h1 className="my-work-title" style={{color: '#FFCC00',userSelect: 'none' , cursor: 'pointer'}}>Work</h1>
+            <h1 className="my-work-title" style={{color: '#FFCC00'}} >Work</h1>
         </div>
         <div className="work-popup-container">
             <div className="work-popup-rows">
@@ -58,6 +58,6 @@ export default function MyWork () {
                 </motion.div>
             </div>
         </div>
-        <br/><br/>
+        <br id="media2" />
     </motion.div>);
 }

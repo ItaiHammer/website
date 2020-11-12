@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import AboutMe from './components/AboutMe';
 import MyWork from './components/MyWork';
+import Media from './components/Media';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -43,7 +44,8 @@ function App() {
     <Body theme={theme} setTheme={setTheme} />
     <AboutMe/>
     <MyWork/>
-    <Contact/>
+    {/* <Media/> */}
+    {/* <Contact/> */}
     <Footer/>
   </div>);
 }

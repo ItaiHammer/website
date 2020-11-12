@@ -56,6 +56,6 @@ export default function AboutMe () {
             </div>
             <motion.div animate={{scale: aboutMeAnimation ? 1.1 : 1}} transition={{duration: 0.2}} onClick={()=>{setAboutMeAnimation(true)}} className="about-me-logo" ></motion.div>
         </div>
-        <br/><br/><br/>
+        <br id="my-work2" />
         </motion.div>);
 }

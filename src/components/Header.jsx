@@ -27,12 +27,12 @@ export default function Header ({ theme, setTheme, isPhone }) {
         },
         {
             text: 'My Work',
-            href: isPhone ? '#my-work' : '#my-work',
+            href: isPhone ? '#my-work2' : '#my-work',
             click: ()=>{setTheme("#FFCC00")}
         },
         {
-            text: 'Support',
-            href: '#'
+            text: 'Media',
+            href: isPhone ? '#media' : '#media2'
         },
         {
             text: 'Contact',
