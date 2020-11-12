@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 //files
 import './Header.css';
 
-export default function Header ({ theme }) {
+export default function Header ({ theme, setTheme, isPhone }) {
     const headerVariants = {
         initial: {
             y: -100
@@ -17,15 +17,18 @@ export default function Header ({ theme }) {
     let headerLinks = [
         {
             text: 'Home',
-            href: '#home'
+            href: '#home',
+            click: ()=>{setTheme("#00AAFF")}
         },
         {
             text: 'About Me',
-            href: '#about-me'
+            href: isPhone ? '#about-me2' : '#about-me',
+            click: ()=>{setTheme("#9562FF")}
         },
         {
             text: 'My Work',
-            href: '#my-work'
+            href: isPhone ? '#my-work' : '#my-work',
+            click: ()=>{setTheme("#FFCC00")}
         },
         {
             text: 'Support',
@@ -40,7 +43,7 @@ export default function Header ({ theme }) {
 
     return (<motion.div variants={headerVariants} initial="initial" animate="animate" className="header">
         {headerLinks.map(element => {
-                return <a href={element.href} className="header-links" style={{color: element.color != null ? element.color : 'grey'}} >{element.text}</a>
+                return <a href={element.href} onClick={element.click} className="header-links" style={{color: element.color != null ? element.color : 'grey'}} >{element.text}</a>
         })}
     </motion.div>);
 }

@@ -28,15 +28,14 @@ export default function MyWork () {
                     <div className="work-popup-placeholder">
                         <h1 className="work-title" >3D MODELING</h1>
                     </div>
-                    <iframe src="https://codesandbox.io/embed/quizzical-maxwell-5uhhk?fontsize=14&hidenavigation=1&theme=dark"
-                    className="work-iframe"
-                    ></iframe>
+                    <div className="work-popup-3d-model-preview" ></div>
                 </motion.div>
                 <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup">
                     <div className="work-popup-placeholder">
                         <h1 className="work-title" >PROGRAMMING</h1>
                     </div>
-                    <iframe src="https://codesandbox.io/embed/moving-box-simulation-b0sl6?fontsize=14&hidenavigation=1&theme=dark"
+
+                    <iframe src="https://codesandbox.io/embed/floral-monad-1126f?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
                     className="work-iframe"
                     ></iframe>
                 </motion.div>
@@ -47,7 +46,7 @@ export default function MyWork () {
                         <h1 className="work-title" >VIDEO EDITING</h1>
                     </div>
                     <video className="work-iframe" controls>
-                        <source src=".\my-work\video.mp4" type="video/mp4"/>
+                        <source src="\my-work\video.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </motion.div>
@@ -55,7 +54,7 @@ export default function MyWork () {
                     <div className="work-popup-placeholder">
                         <h1 className="work-title" >PHOTOSHOPPING</h1>
                     </div>
-                    <div className="work-popup-photoshop-preview"></div>
+                    <div className="work-popup-photoshop-preview" ></div>
                 </motion.div>
             </div>
         </div>

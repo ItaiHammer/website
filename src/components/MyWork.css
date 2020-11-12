@@ -192,6 +192,14 @@
         border-bottom: 10px;
     }
 
+    .work-popup-3d-model-preview {
+        background: url('./my-work/3d-model.png') center center no-repeat;
+        width: 100%;
+        height: 80%;
+        background-size: cover;
+        border-bottom: 10px;
+    }
+
     .work-popup-photoshop-preview {
         background: url('./my-work/photoshop.jpg');
         width: 100%;
