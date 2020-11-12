@@ -23,8 +23,41 @@ export default function MyWork () {
             <h1 className="my-work-title" style={{color: '#FFCC00',userSelect: 'none' , cursor: 'pointer'}}>Work</h1>
         </div>
         <div className="work-popup-container">
-            <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup"></motion.div>
-            <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup"></motion.div>
+            <div className="work-popup-rows">
+                <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup">
+                    <div className="work-popup-placeholder">
+                        <h1 className="work-title" >3D MODELING</h1>
+                    </div>
+                    <iframe src="https://codesandbox.io/embed/quizzical-maxwell-5uhhk?fontsize=14&hidenavigation=1&theme=dark"
+                    className="work-iframe"
+                    ></iframe>
+                </motion.div>
+                <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup">
+                    <div className="work-popup-placeholder">
+                        <h1 className="work-title" >PROGRAMMING</h1>
+                    </div>
+                    <iframe src="https://codesandbox.io/embed/moving-box-simulation-b0sl6?fontsize=14&hidenavigation=1&theme=dark"
+                    className="work-iframe"
+                    ></iframe>
+                </motion.div>
+            </div>
+            <div className="work-popup-rows">
+                <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup">
+                    <div className="work-popup-placeholder">
+                        <h1 className="work-title" >VIDEO EDITING</h1>
+                    </div>
+                    <video className="work-iframe" controls>
+                        <source src=".\my-work\video.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+                </motion.div>
+                <motion.div whileHover={{y: -50}} transition={{type: 'spring', mass: 2, damping: 15}} className="work-popup">
+                    <div className="work-popup-placeholder">
+                        <h1 className="work-title" >PHOTOSHOPPING</h1>
+                    </div>
+                    <div className="work-popup-photoshop-preview"></div>
+                </motion.div>
+            </div>
         </div>
         <br/><br/>
     </motion.div>);
