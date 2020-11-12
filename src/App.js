@@ -41,7 +41,7 @@ function App() {
 
   return (<div className="app-body" >
     <Header theme={theme} setTheme={setTheme} isPhone={isPhone} />
-    <Body theme={theme} setTheme={setTheme} />
+    <Body theme={theme} setTheme={setTheme} isPhone={isPhone} />
     <AboutMe/>
     <MyWork/>
     {/* <Media/> */}

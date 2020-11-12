@@ -4,7 +4,7 @@ import { animate, motion } from 'framer-motion';
 //files
 import './Body.css';
 
-export default function Body ({ theme, setTheme }) {
+export default function Body ({ theme, setTheme, isPhone }) {
     const homeVariants = {
         initial: {
             opacity: 0,
@@ -45,7 +45,7 @@ export default function Body ({ theme, setTheme }) {
             <div className="click-me-icon"></div>
             <p className="click-me-text" >Long Click Me!</p>
         </div>
-        <motion.a id="about-me2" href="#about-me" whileHover={{scale: 1.05}} ><button className="view-work-button" style={{background: theme}} >About Me <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="About Me" className="my-work-button-icon" /> </button></motion.a>
+        <motion.a id="about-me2" href={isPhone ? '#about-me2' : '#about-me'} whileHover={{scale: 1.05}} ><button className="view-work-button" style={{background: theme}} >About Me <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="About Me" className="my-work-button-icon" /> </button></motion.a>
         <div className="home-design-icon" ></div>
     </motion.div>);
 };
