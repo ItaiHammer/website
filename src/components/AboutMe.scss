@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (min-width: 0px) {
     #about-me {
         display: flex;
         flex-direction: column;
@@ -43,10 +43,9 @@
     }
 
     .about-circle-icon {
-        background: url('./img/circle-icon.svg') center center no-repeat;
         width: 15vw;
         height: 15vw;
-        margin-left: 30vw;
+        margin-left: 15vw;
         position: absolute;
         z-index: 0;
     }
@@ -88,7 +87,6 @@
     }
 
     .about-me-logo {
-        background: url('./img/logo-background.png') center center;
         width: 10vw;
         height: 10vw;
         border-radius: 50%;
@@ -143,10 +141,9 @@
     }
 
     .about-circle-icon {
-        background: url('./img/circle-icon.svg') center center no-repeat;
         width: 10vw;
         height: 10vw;
-        margin-left: 19vw;
+        margin-left: 10vw;
         position: absolute;
         z-index: 0;
     }
@@ -188,7 +185,6 @@
     }
 
     .about-me-logo {
-        background: url('./img/logo-background.png') center center;
         width: 10vw;
         height: 10vw;
         border-radius: 50%;

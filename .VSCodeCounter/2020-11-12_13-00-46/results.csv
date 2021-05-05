@@ -1,0 +1,41 @@
+"filename", "language", "JavaScript", "CSS", "JSON", "Markdown", "JavaScript React", "HTML", "XML", "comment", "blank", "total"
+"d:\Projects\Programming\GitHub\website\README.md", "Markdown", 0, 0, 0, 38, 0, 0, 0, 0, 33, 71
+"d:\Projects\Programming\GitHub\website\docs\asset-manifest.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 25
+"d:\Projects\Programming\GitHub\website\docs\index.html", "HTML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"d:\Projects\Programming\GitHub\website\docs\manifest.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 1, 26
+"d:\Projects\Programming\GitHub\website\docs\static\css\main.5ff487d5.chunk.css", "CSS", 0, 1, 0, 0, 0, 0, 0, 1, 0, 2
+"d:\Projects\Programming\GitHub\website\docs\static\js\2.0388339c.chunk.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 2, 0, 3
+"d:\Projects\Programming\GitHub\website\docs\static\js\3.d3072f80.chunk.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 1, 0, 2
+"d:\Projects\Programming\GitHub\website\docs\static\js\main.476707f6.chunk.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 1, 0, 2
+"d:\Projects\Programming\GitHub\website\docs\static\js\runtime-main.028504d6.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 1, 0, 2
+"d:\Projects\Programming\GitHub\website\docs\static\media\circle-icon.21a99efc.svg", "XML", 0, 0, 0, 0, 0, 0, 61, 1, 1, 63
+"d:\Projects\Programming\GitHub\website\docs\static\media\click-me-icon.5c51343b.svg", "XML", 0, 0, 0, 0, 0, 0, 26, 1, 1, 28
+"d:\Projects\Programming\GitHub\website\docs\static\media\design-icon.67350196.svg", "XML", 0, 0, 0, 0, 0, 0, 493, 1, 5, 499
+"d:\Projects\Programming\GitHub\website\package-lock.json", "JSON", 0, 0, 16655, 0, 0, 0, 0, 0, 1, 16656
+"d:\Projects\Programming\GitHub\website\package.json", "JSON", 0, 0, 41, 0, 0, 0, 0, 0, 1, 42
+"d:\Projects\Programming\GitHub\website\public\index.html", "HTML", 0, 0, 0, 0, 0, 21, 0, 1, 2, 24
+"d:\Projects\Programming\GitHub\website\public\manifest.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 1, 26
+"d:\Projects\Programming\GitHub\website\src\App.css", "CSS", 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"d:\Projects\Programming\GitHub\website\src\App.js", "JavaScript", 46, 0, 0, 0, 0, 0, 0, 1, 7, 54
+"d:\Projects\Programming\GitHub\website\src\components\AboutMe.css", "CSS", 0, 179, 0, 0, 0, 0, 0, 0, 22, 201
+"d:\Projects\Programming\GitHub\website\src\components\AboutMe.jsx", "JavaScript React", 0, 0, 0, 0, 55, 0, 0, 1, 5, 61
+"d:\Projects\Programming\GitHub\website\src\components\Body.css", "CSS", 0, 159, 0, 0, 0, 0, 0, 0, 17, 176
+"d:\Projects\Programming\GitHub\website\src\components\Body.jsx", "JavaScript React", 0, 0, 0, 0, 46, 0, 0, 1, 4, 51
+"d:\Projects\Programming\GitHub\website\src\components\Contact.css", "CSS", 0, 2, 0, 0, 0, 0, 0, 0, 1, 3
+"d:\Projects\Programming\GitHub\website\src\components\Contact.jsx", "JavaScript React", 0, 0, 0, 0, 6, 0, 0, 1, 2, 9
+"d:\Projects\Programming\GitHub\website\src\components\Footer.css", "CSS", 0, 65, 0, 0, 0, 0, 0, 0, 10, 75
+"d:\Projects\Programming\GitHub\website\src\components\Footer.jsx", "JavaScript React", 0, 0, 0, 0, 12, 0, 0, 1, 3, 16
+"d:\Projects\Programming\GitHub\website\src\components\Header.css", "CSS", 0, 58, 0, 0, 0, 0, 0, 0, 6, 64
+"d:\Projects\Programming\GitHub\website\src\components\Header.jsx", "JavaScript React", 0, 0, 0, 0, 45, 0, 0, 1, 3, 49
+"d:\Projects\Programming\GitHub\website\src\components\Media.css", "CSS", 0, 61, 0, 0, 0, 0, 0, 0, 7, 68
+"d:\Projects\Programming\GitHub\website\src\components\Media.jsx", "JavaScript React", 0, 0, 0, 0, 21, 0, 0, 1, 2, 24
+"d:\Projects\Programming\GitHub\website\src\components\MyWork.css", "CSS", 0, 188, 0, 0, 0, 0, 0, 0, 23, 211
+"d:\Projects\Programming\GitHub\website\src\components\MyWork.jsx", "JavaScript React", 0, 0, 0, 0, 58, 0, 0, 1, 4, 63
+"d:\Projects\Programming\GitHub\website\src\components\img\circle-icon.svg", "XML", 0, 0, 0, 0, 0, 0, 61, 1, 1, 63
+"d:\Projects\Programming\GitHub\website\src\components\img\click-me-icon.svg", "XML", 0, 0, 0, 0, 0, 0, 26, 1, 1, 28
+"d:\Projects\Programming\GitHub\website\src\components\img\design-icon.svg", "XML", 0, 0, 0, 0, 0, 0, 493, 1, 5, 499
+"d:\Projects\Programming\GitHub\website\src\index.css", "CSS", 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"d:\Projects\Programming\GitHub\website\src\index.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 3, 3, 18
+"d:\Projects\Programming\GitHub\website\src\reportWebVitals.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"d:\Projects\Programming\GitHub\website\src\setupTests.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 4, 1, 6
+"Total", "-", 75, 745, 16771, 38, 243, 22, 1160, 28, 180, 19262

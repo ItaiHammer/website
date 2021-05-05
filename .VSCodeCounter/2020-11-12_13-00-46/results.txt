@@ -1,0 +1,78 @@
+Date : 2020-11-12 13:00:46
+Directory : d:\Projects\Programming\GitHub\website
+Total : 39 files,  19054 codes, 28 comments, 180 blanks, all 19262 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          5 |     16,771 |          0 |          4 |     16,775 |
+| XML              |          6 |      1,160 |          6 |         14 |      1,180 |
+| CSS              |         10 |        745 |          1 |         91 |        837 |
+| JavaScript React |          7 |        243 |          7 |         23 |        273 |
+| JavaScript       |          8 |         75 |         13 |         13 |        101 |
+| Markdown         |          1 |         38 |          0 |         33 |         71 |
+| HTML             |          2 |         22 |          1 |          2 |         25 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         39 |     19,054 |         28 |        180 |     19,262 |
+| docs                                                                                |         11 |        636 |          9 |          8 |        653 |
+| docs\static                                                                         |          8 |        585 |          9 |          7 |        601 |
+| docs\static\css                                                                     |          1 |          1 |          1 |          0 |          2 |
+| docs\static\js                                                                      |          4 |          4 |          5 |          0 |          9 |
+| docs\static\media                                                                   |          3 |        580 |          3 |          7 |        590 |
+| public                                                                              |          2 |         46 |          1 |          3 |         50 |
+| src                                                                                 |         23 |      1,638 |         18 |        134 |      1,790 |
+| src\components                                                                      |         17 |      1,535 |         10 |        116 |      1,661 |
+| src\components\img                                                                  |          3 |        580 |          3 |          7 |        590 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                            | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| d:\Projects\Programming\GitHub\website\README.md                                    | Markdown         |         38 |          0 |         33 |         71 |
+| d:\Projects\Programming\GitHub\website\docs\asset-manifest.json                     | JSON             |         25 |          0 |          0 |         25 |
+| d:\Projects\Programming\GitHub\website\docs\index.html                              | HTML             |          1 |          0 |          0 |          1 |
+| d:\Projects\Programming\GitHub\website\docs\manifest.json                           | JSON             |         25 |          0 |          1 |         26 |
+| d:\Projects\Programming\GitHub\website\docs\static\css\main.5ff487d5.chunk.css      | CSS              |          1 |          1 |          0 |          2 |
+| d:\Projects\Programming\GitHub\website\docs\static\js\2.0388339c.chunk.js           | JavaScript       |          1 |          2 |          0 |          3 |
+| d:\Projects\Programming\GitHub\website\docs\static\js\3.d3072f80.chunk.js           | JavaScript       |          1 |          1 |          0 |          2 |
+| d:\Projects\Programming\GitHub\website\docs\static\js\main.476707f6.chunk.js        | JavaScript       |          1 |          1 |          0 |          2 |
+| d:\Projects\Programming\GitHub\website\docs\static\js\runtime-main.028504d6.js      | JavaScript       |          1 |          1 |          0 |          2 |
+| d:\Projects\Programming\GitHub\website\docs\static\media\circle-icon.21a99efc.svg   | XML              |         61 |          1 |          1 |         63 |
+| d:\Projects\Programming\GitHub\website\docs\static\media\click-me-icon.5c51343b.svg | XML              |         26 |          1 |          1 |         28 |
+| d:\Projects\Programming\GitHub\website\docs\static\media\design-icon.67350196.svg   | XML              |        493 |          1 |          5 |        499 |
+| d:\Projects\Programming\GitHub\website\package-lock.json                            | JSON             |     16,655 |          0 |          1 |     16,656 |
+| d:\Projects\Programming\GitHub\website\package.json                                 | JSON             |         41 |          0 |          1 |         42 |
+| d:\Projects\Programming\GitHub\website\public\index.html                            | HTML             |         21 |          1 |          2 |         24 |
+| d:\Projects\Programming\GitHub\website\public\manifest.json                         | JSON             |         25 |          0 |          1 |         26 |
+| d:\Projects\Programming\GitHub\website\src\App.css                                  | CSS              |         20 |          0 |          3 |         23 |
+| d:\Projects\Programming\GitHub\website\src\App.js                                   | JavaScript       |         46 |          1 |          7 |         54 |
+| d:\Projects\Programming\GitHub\website\src\components\AboutMe.css                   | CSS              |        179 |          0 |         22 |        201 |
+| d:\Projects\Programming\GitHub\website\src\components\AboutMe.jsx                   | JavaScript React |         55 |          1 |          5 |         61 |
+| d:\Projects\Programming\GitHub\website\src\components\Body.css                      | CSS              |        159 |          0 |         17 |        176 |
+| d:\Projects\Programming\GitHub\website\src\components\Body.jsx                      | JavaScript React |         46 |          1 |          4 |         51 |
+| d:\Projects\Programming\GitHub\website\src\components\Contact.css                   | CSS              |          2 |          0 |          1 |          3 |
+| d:\Projects\Programming\GitHub\website\src\components\Contact.jsx                   | JavaScript React |          6 |          1 |          2 |          9 |
+| d:\Projects\Programming\GitHub\website\src\components\Footer.css                    | CSS              |         65 |          0 |         10 |         75 |
+| d:\Projects\Programming\GitHub\website\src\components\Footer.jsx                    | JavaScript React |         12 |          1 |          3 |         16 |
+| d:\Projects\Programming\GitHub\website\src\components\Header.css                    | CSS              |         58 |          0 |          6 |         64 |
+| d:\Projects\Programming\GitHub\website\src\components\Header.jsx                    | JavaScript React |         45 |          1 |          3 |         49 |
+| d:\Projects\Programming\GitHub\website\src\components\Media.css                     | CSS              |         61 |          0 |          7 |         68 |
+| d:\Projects\Programming\GitHub\website\src\components\Media.jsx                     | JavaScript React |         21 |          1 |          2 |         24 |
+| d:\Projects\Programming\GitHub\website\src\components\MyWork.css                    | CSS              |        188 |          0 |         23 |        211 |
+| d:\Projects\Programming\GitHub\website\src\components\MyWork.jsx                    | JavaScript React |         58 |          1 |          4 |         63 |
+| d:\Projects\Programming\GitHub\website\src\components\img\circle-icon.svg           | XML              |         61 |          1 |          1 |         63 |
+| d:\Projects\Programming\GitHub\website\src\components\img\click-me-icon.svg         | XML              |         26 |          1 |          1 |         28 |
+| d:\Projects\Programming\GitHub\website\src\components\img\design-icon.svg           | XML              |        493 |          1 |          5 |        499 |
+| d:\Projects\Programming\GitHub\website\src\index.css                                | CSS              |         12 |          0 |          2 |         14 |
+| d:\Projects\Programming\GitHub\website\src\index.js                                 | JavaScript       |         12 |          3 |          3 |         18 |
+| d:\Projects\Programming\GitHub\website\src\reportWebVitals.js                       | JavaScript       |         12 |          0 |          2 |         14 |
+| d:\Projects\Programming\GitHub\website\src\setupTests.js                            | JavaScript       |          1 |          4 |          1 |          6 |
+| Total                                                                               |                  |     19,054 |         28 |        180 |     19,262 |
++-------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
